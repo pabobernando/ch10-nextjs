@@ -1,7 +1,12 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}","./pages/**/*.{html,js}","./components/**/*.{html,js}"],
+  mode:'jit',
+  content: ["./src/**/*.{html,js,jsx}","./pages/**/*.{html,js,jsx}","./components/**/*.{html,js,jsx}"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('postcss-import'),
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 }
