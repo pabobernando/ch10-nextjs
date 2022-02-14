@@ -7,9 +7,9 @@ function HomePage() {
     return <div>
       <Navbar />
       <div className='container-fluid mx-auto  mt-9'>
-        <div className="grid grid-rows-4 grid-flow-col gap-4">
-            <div className="col-6 flex-1 bg-white">FOTO</div>
-            <div className="col-6 flex-1 bg-dark">DESKRIPSI</div>
+        <div className="flex">
+            <div className="flex-1 w-64">FOTO</div>
+            <div className="flex-1 w-64">DESKRIPSI</div>
 </div>
 
         </div>
