@@ -1,6 +1,6 @@
 import React from 'react';
 // import {Transition} from "@headlessui/react";
-import {Link} from "react-scroll";
+import Link from 'next/link'
 
 function Navbar() {
   return (
@@ -16,12 +16,12 @@ function Navbar() {
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow text-right">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-violet-500 mr-4">
+      <Link href="/home" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-violet-500 mr-4">
         Home
-      </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-violet-500 mr-4">
+      </Link>
+      <Link href="/home/listgame" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-violet-500 mr-4">
         List Game
-      </a>
+      </Link>
       <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-violet-500">
         Dashboard
       </a>
