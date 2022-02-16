@@ -6,10 +6,31 @@ import Link from 'next/link';
 function HomePage() {
     return <div>
       <Navbar />
-      <div className='container-fluid mx-auto  mt-9'>
+      <div className='container-fluid mt-9'>
         <div className="flex">
-            <div className="flex-1 w-64">FOTO</div>
-            <div className="flex-1 w-64">DESKRIPSI</div>
+            <div className="w-1/4 m-8"><img className='mx-auto' src={gambar2.src} /></div>
+            <div className="w-3/4">
+            <div className="flex flex-wrap overflow-hidden">
+
+<div className="w-full overflow-hidden">
+KEWER
+</div>
+
+<div className="w-full overflow-hidden">
+KEWER
+</div>
+
+<div className="w-full overflow-hidden">
+KEWER
+</div>
+
+<div className="w-full overflow-hidden">
+KEWER
+</div>
+
+</div>
+            
+            </div>
 </div>
 
         </div>
