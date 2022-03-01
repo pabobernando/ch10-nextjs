@@ -1,30 +1,29 @@
-import React from 'react';
-import Link from 'next/link';
-import 'tailwindcss/tailwind.css';
+import React from 'react'
+import Link from 'next/link'
+import 'tailwindcss/tailwind.css'
 import Navbar from '@/components/Navbar/Navbar'
 
-function listgame() {
+function listgame () {
   return (
     <div>
         <Navbar />
         <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
-
-<section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
-   <div class="container">
-      <div class="flex flex-wrap -mx-4">
-         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+<section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+   <div className="container">
+      <div className="flex flex-wrap -mx-4">
+         <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div className="bg-white rounded-lg overflow-hidden mb-10">
                <img
                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
                   alt="image"
-                  class="w-full"
+                  className="w-full"
                   />
-               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+               <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                      <a
                         href="javascript:void(0)"
-                        class="
+                        className="
                         font-semibold
                         text-dark text-xl
                         sm:text-[22px]
@@ -40,13 +39,13 @@ function listgame() {
                      Rock Papper Scissor
                      </a>
                   </h3>
-                  <p class="text-base text-body-color leading-relaxed mb-7">
+                  <p className="text-base text-body-color leading-relaxed mb-7">
                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
                      elit. Lorem consectetur adipiscing elit.
                   </p>
                   <a
                      href="javascript:void(0)"
-                     class="
+                     className="
                      inline-block
                      py-2
                      px-7
@@ -63,18 +62,18 @@ function listgame() {
                </div>
             </div>
          </div>
-         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+         <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div className="bg-white rounded-lg overflow-hidden mb-10">
                <img
                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
                   alt="image"
-                  class="w-full"
+                  className="w-full"
                   />
-               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+               <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                      <a
                         href="javascript:void(0)"
-                        class="
+                        className="
                         font-semibold
                         text-dark text-xl
                         sm:text-[22px]
@@ -90,13 +89,13 @@ function listgame() {
                      Tic Tac Toe
                      </a>
                   </h3>
-                  <p class="text-base text-body-color leading-relaxed mb-7">
+                  <p className="text-base text-body-color leading-relaxed mb-7">
                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
                      elit. Lorem consectetur adipiscing elit.
                   </p>
                   <a
                      href="javascript:void(0)"
-                     class="
+                     className="
                      inline-block
                      py-2
                      px-7
@@ -113,18 +112,18 @@ function listgame() {
                </div>
             </div>
          </div>
-         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+         <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div className="bg-white rounded-lg overflow-hidden mb-10">
                <img
                   src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
                   alt="image"
-                  class="w-full"
+                  className="w-full"
                   />
-               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+               <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                      <a
                         href="javascript:void(0)"
-                        class="
+                        className="
                         font-semibold
                         text-dark text-xl
                         sm:text-[22px]
@@ -140,13 +139,13 @@ function listgame() {
                      Flappy Bird
                      </a>
                   </h3>
-                  <p class="text-base text-body-color leading-relaxed mb-7">
+                  <p className="text-base text-body-color leading-relaxed mb-7">
                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
                      elit. Lorem consectetur adipiscing elit.
                   </p>
                   <a
                      href="javascript:void(0)"
-                     class="
+                     className="
                      inline-block
                      py-2
                      px-7
